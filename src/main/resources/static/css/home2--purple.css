@@ -1,0 +1,104 @@
+.topSection {
+    background-image: url(../img/home--purple/home1-bg.png);
+}
+.about__title {
+    color: #393f82;
+}
+.about__item:nth-child(1)::before{
+    background-color: #a3cef1;
+}
+.about__item:nth-child(1)::after{
+    background-image: url(../img/home--purple/line__green.png);
+}
+.about__item:nth-child(1) .about__img .about__imgWrapper::before{
+    background-image: url(../img/home--purple/about__item--first.png);
+}
+.about__item:nth-child(2)::before{
+    background-color: #a3cef1;
+}
+.about__item:nth-child(2)::after{
+    background-image: url(../img/home--purple/graphic__item2.png);
+}
+.about__item:nth-child(2) .about__img .about__imgWrapper::before{
+    background-image: url(../img/home--purple/circle__green.png);
+}
+
+.featured__title {
+    color: #6f9f4f;
+}
+.featured__btn{
+    background-color: #6f9f4f;
+}
+.product--button{
+    background-color: #6f9f4f;
+}
+.featured::before{
+    background-image: url(../img/home--purple/halfElipse__green.png);
+}
+.featured__block::before{
+    background-image: url(../img/home--purple/elipse__green.png);
+
+}
+.blog__title{
+    color: #515690;
+}
+.blog__title span{
+    color: #a3cef1;
+}
+.blog__row:nth-child(1)::before{
+    background-image: url(../img/home--purple/graphic__row1.png);
+}
+.blog__row:nth-child(2)::before{
+    background-image: url(../img/home--purple/LiteBlue.png);
+}
+.blog__row:nth-child(3)::before{
+    background-image: url(../img/home--purple/halfElipse--blue.png);
+}
+.blog__button::before{
+    background-image: url(../img/home--purple/3dots--blue.png);
+}
+.contact::before{
+    background-image: url(../img/home--purple/greenDotsBig.png);
+}
+.contact::after{
+    background-image: url(../img/home--purple/GreenDots.png);
+}
+.contact__wrapper::before{
+    background-color: #515690;
+}
+.contact__title::before{
+    background-image: url(../img/home--purple/purpleDotsElips.png);
+}
+.newsletter__form {
+    background-color: #6f9f4f;
+}
+.newsletter__form::before{
+    background-image: url(../img/home--purple/purpleDots.png);
+}
+@media (max-width: 1320px){
+    .contact{
+        background-color: #515690;
+    }
+}
+@media (max-width: 650px){
+    .topSection{
+        background-image: url(../img/home--purple/mobile-bg.png);
+    }
+}
+@media (max-width: 650px){
+    .contact{
+        background-color: transparent;
+    }
+    .contact__wrapper{
+        background-color: #515690;
+    }
+    .contact__block::before{
+        background-image: url(../img/home--purple/contactMblock.png);
+    }
+    .newsletter{
+        background-color: #6f9f4f;
+    }
+    .newsletter__form{
+        background-color:transparent;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    background-color: #1a1d40;
+}
+.article__header::before{
+    background-image: url(../img/article--dark/articleHeaderBefore.png);
+}
+.article__header::after{
+    background-image: url(../img/article--dark/articleHeaderAfter.png);
+}
+.article__title,
+.article__subtitle{
+    color: #f2f2f2;
+}
+.article__date,
+.article__text{
+    color: #c3c3c3;
+}
+.article__title::before{
+    background-color: #32408c;
+}
+.article__date::after{
+    background-image: url(../img/article--dark/articleDateAfter.png);
+}
+.article__text p:first-child::before{
+    background-image: url(../img/article--dark/articleText1Before.png);
+}
+.article__img::before{
+    background-color: #32408c;
+}
+.article__img::after{
+    background-color: #edafb8;
+}
+.article__text p:nth-child(4n)::after{
+    background-image: url(../img/article--dark/imgAfter.png);
+}
+.article__text p:nth-child(6n)::after{
+    background-image: url(../img/article--dark/articleText5Before.png)
+}
+.article__btn::after{
+    background-image: url(../img/article--dark/articleBtnAfter.png);
+}
+@media(max-width: 800px){
+    .article__text p:nth-child(4n)::after{
+        background-image: url(../img/article--dark/imgAfter--mobile.png);
+    }
+    
+}

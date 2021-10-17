@@ -1,0 +1,27 @@
+.sign-up::before{
+    background-image: url(../img/sign-up--green/graphic_element.png);
+}
+.sign-up::after{
+    background-image: url(../img/sign-up--green/graphic_right.png);
+}
+
+.sign-up__title {
+    color: #6f9f4f;
+}
+.sign-up__form {
+    background-color: #a3cef1;
+}
+.sign-up__formWrapper::after{
+    background-image: url(../img/sign-up--green/graphic__formWrapper.png);
+}
+.sign-up__title::before{
+    background-image: url(../img/sign-up--green/title.png);
+}
+@media (max-width:978px){
+    .sign-up__form::before{
+        background-image: url(../img/sign-up--green/formBefore.png);
+    }
+    .sign-up__form::after{
+        background-image: url(../img/sign-up--green/formAfter.png);
+    }
+}

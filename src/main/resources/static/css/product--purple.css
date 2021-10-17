@@ -1,0 +1,36 @@
+.productMain__wrapper::before{
+    background-color: #515690;
+}
+.productMain__info::after{
+    background-image: url(../img/product--purple/graphicProductMainInfo.png);
+
+}
+.productDescription::before{
+    background-image: url(../img/product--purple/graphicDescriptionSec.png);
+}
+.productDescription__title {
+    color: #515690;
+}
+.productDescription__text::after{
+    background-image: url(../img/product--purple/graphicDescription.png);
+}
+
+.relatedProduct__title {
+    color: #6f9f4f;
+}
+.relatedProduct__title::before{
+    background-image: url(../img/product--purple/graphicRelatedTitle.png);
+}
+.featured__btn{
+    background-color: #6f9f4f;
+}
+.relatedProducts::before{
+    background-image: url(../img/product--purple/graphiRelatedSection.png);
+}
+.relatedProducts::after{
+    background-image: url(../img/product--purple/relatedproductaftermob.png);
+}
+
+.footer::after{
+    background-image: url(../img/product--purple/footerAfter.png);
+}

@@ -1,0 +1,45 @@
+
+.checkout__title {
+    color: #3a3f83;
+}
+
+.checkout__wrapper .wrapper--green{
+    background-color: #6f9f4f;
+}
+.checkout__wrapper .wrapper--purple{
+    background-color: #515690;
+}
+.checkout__main{
+    background-image: url(../img/checkout--purple/checout__bg.png);
+}
+.options__container{
+    background-color: #a3cef1;
+    color: #0d0d0d;
+}
+.selected{
+    background-color: #f5f7ff;
+}
+.selected::after{
+    box-shadow: 1px 1px #3a3f83;
+}
+.options__container::-webkit-scrollbar{
+    background-color: #aaa;
+}
+.options__container::-webkit-scrollbar-thumb{
+    background-color: #3a3f83;
+}
+.option:hover{
+    color: #3a3f83;
+}
+@media (max-width: 1000px){
+    .checkout__main{
+        background:transparent;
+    }
+    .checkoutForm__wrapper:nth-child(1)::after,
+    .checkoutForm__wrapper:nth-child(3)::after{
+        background-image: url(../img/checkout--purple/mobileAfter.png);
+    }
+    .checkoutForm__wrapper:nth-child(4)::after{
+        background-image: url(../img/checkout--purple/formPurpleAfter.png);
+    }
+}

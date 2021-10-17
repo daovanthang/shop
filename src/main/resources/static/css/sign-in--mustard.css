@@ -1,0 +1,21 @@
+.sign-in::before{
+    background-image: url(../img/sign-in--mustard/Sign-inBefore.png);
+}
+.sign-in::after{
+    background-image: url(../img/sign-in--mustard/sign-inAfter.png);
+}
+
+.sign-in__title {
+    color: #a68549;
+}
+.sign-in__form {
+    background-color: #f2da91;
+}
+.sign-in__title::before{
+    background-image: url(../img/sign-in--mustard/sign-inTitleBefore.png);
+}
+@media (max-width:1060px){
+    .sign-in__form::after{
+        background-image: url(../img/sign-in--mustard/sing-inFormAfter.png);
+    }
+}

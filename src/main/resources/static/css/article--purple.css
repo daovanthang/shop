@@ -1,0 +1,34 @@
+
+.article__header::before{
+    background-image: url(../img/article1/graphicTop--blue.png);
+}
+.article__header::after{
+    background-image: url(../img/article1/articleHeader--purple.png);
+}
+.article__title{
+    color: #3a3f83;
+}
+.article__title::before{
+    background-color: #a3cef1;
+}
+.article__date::after{
+    background-image: url(../img/article1/graphicDate--purple.png);
+}
+.article__text p:first-child::before{
+    background-image: url(../img/article1/graphic1.png);
+}
+.article__img::before{
+    background-color: #515690;
+}
+.article__img::after{
+    background-color: #a3cef1;
+}
+.article__text p:nth-child(4n)::after{
+    background-image: url(../img/article1/graphic4.png);
+}
+.article__text p:nth-child(6n)::after{
+    background-image: url(../img/article1/graphic5.png)
+}
+.article__btn::after{
+    background-image: url(../img/article1/graphicBtn--purple.png);
+}

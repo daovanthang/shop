@@ -1,0 +1,53 @@
+.header::before{
+    background-image: url(../img/cart--blue/img1.png);
+}
+.cart__top::after{
+    background-image: url(../img/cart--blue/cartTopAfter.png);
+}
+.cart__top--graphic::before{
+    background-image: url(../img/cart--blue/img4.png);
+}
+.cart__title::before{
+    background-image: url(../img/cart--blue/img3.png);
+}
+.cart__body::before{
+    background-image: url(../img/cart--blue/img6.png);
+}
+.cart__body::after{
+    background-image: url(../img/cart--blue/img7.png);
+}
+.cart__item {
+    background-color: #a3cef1;
+}
+.cart__item:nth-child(3n+1)::after{
+    background-image: url(../img/cart--blue/cartyItem1after.png);
+}
+.cart__item:nth-child(3n+2)::after{
+    background-image: url(../img/cart--blue/img5.png);
+}
+
+.cart__summary::before{
+    background-image: url(../img/cart--blue/img8.png);
+}
+.cart__summary::after{
+    background-image: url(../img/cart--blue/img9.png);
+}
+.cart__summarySubtotal::before{
+    background-image: url(../img/cart--blue/img10.png);
+}
+.cart__item:nth-child(3n)::after{
+    background-image: url(../img/cart--blue/cartItemMobile3n.png);
+}
+@media(max-width: 820px){
+    .cart__top::after{
+        background-image: url(../img/cart--blue/cartTopAftermobile.png);
+    }
+    .cart__summaryTitle::after{
+        background-image: url(../img/cart--blue/summaryAfter.png);
+    }
+}
+@media(max-width: 420px){
+    .cart__top--graphic::before{
+        background-image: url(../img/cart--blue/cart__topGraphickBefore.png);
+    }
+}

@@ -1,0 +1,32 @@
+body{
+    background-color: #1a1d40;
+}
+.sign-in::before{
+    background-image: url(../img/sign-in--dark/sign-inBefore.png);
+}
+.sign-in::after{
+    background-image: url(../img/sign-in--dark/sign-inAfter.png);
+}
+
+.sign-in__title {
+    color: #edae49;
+}
+.sign-in__form {
+    background-color: #32408c;
+}
+.sign-in__form label,
+.sign-in__createLink {
+    color: #000;
+}
+.sign-in__title::before{
+    background-image: url(../img/sign-in--dark/sign-inTitle.png);
+}
+.sign-up__formWrapper label,
+.sign-up__createLink{
+    color: #1a1d40;
+}
+@media (max-width:1060px){
+    .sign-in__form::after{
+        background-image: url(../img/sign-in--dark/sign-inFormAfter.png);
+    }
+}

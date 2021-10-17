@@ -1,0 +1,48 @@
+.header::before{
+    background-image: url(../img/cart--mustard/headerBefore.png);
+}
+.cart__top::after{
+    background-image: url(../img/cart--mustard/cartTopAfter.png);
+}
+.cart__top--graphic::before{
+    background-image: url(../img/cart--mustard/cartTopGraphicBefore.png);
+}
+
+.cart__body::before{
+    background-image: url(../img/cart--mustard/cartBodyBefore.png);
+}
+.cart__body::after{
+    background-image: url(../img/cart--mustard/cartBodyAfter.png);
+}
+.cart__item {
+    background-color: #a68549;
+}
+.cart__item:nth-child(3n+1)::after{
+    background-image: url(../img/cart--mustard/cartItem1After.png);
+}
+
+.cart__summary::before{
+    background-image: url(../img/cart--mustard/cartSummaryBefore.png);
+}
+.cart__summary::after{
+    background-image: url(../img/cart--mustard/cartSymmaryAfter.png);
+}
+.cart__summarySubtotal::before{
+    background-image: url(../img/cart--mustard/cartSummarySubtotalBefore.png);
+}
+.cart__item:nth-child(3n)::after{
+    background-image: url(../img/cart--mustard/cartItemMobile3After.png);
+}
+@media(max-width: 820px){
+    .cart__top::after{
+        background-image: url(../img/cart--mustard/cartTopAftermobile.png);
+    }
+    .cart__summaryTitle::after{
+        background-image: url(../img/cart--mustard/summaryAfter.png);
+    }
+}
+@media(max-width: 420px){
+    .cart__top--graphic::before{
+        background-image: url(../img/cart--mustard/cart__topGraphickBefore.png);
+    }
+}

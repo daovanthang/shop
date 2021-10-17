@@ -1,0 +1,33 @@
+.cart__itemWrapper {
+    background-color: #2e5955;
+}
+.cart__item:nth-child(3n+1) .cart__itemGraphic::after{
+    background-image: url(../img/cart--darkGreen/cartItem1after.png);
+}
+.cart__item:nth-child(3n+2) .cart__itemGraphic::before{
+    background-image: url(../img/cart--darkGreen/cartItem2Before.png);
+}
+.cart__item:nth-child(3n+2) .cart__itemGraphic::after{
+    background-image: url(../img/cart--darkGreen/cartItem2After.png);
+}
+.cart__item:nth-child(3n+2) .cart__productLogo::before{
+    background-image: url(../img/cart--darkGreen/cartItem2After.png);
+}
+.cart__item:nth-child(3n) .cart__itemGraphic::before{
+    background-image: url(../img/cart--darkGreen/cartItem2After.png);
+}
+.cart__summary::before{
+    background-image: url(../img/cart--darkGreen/cartSummaryBefore.png);
+}
+footer::after{
+    background-image: url(../img/cart--darkGreen//footerAftert.png);
+}
+@media (max-width:650px){
+
+    .cart__title::after{
+        background-image: url(../img/cart--darkGreen/cartItem2After.png);
+    }
+    .cart__item:nth-child(3n) .cart__itemGraphic::before {
+        background-image: url(../img/cart--darkGreen/cartItem2After.png);
+    }
+}

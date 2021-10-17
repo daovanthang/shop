@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html
+  xmlns:th="http://www.thymeleaf.org"
+  xmlns:layout="http://www.ultraq.net.nz/web/thymeleaf/layout"
+>
+  <head>
+    <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">
+      Atta Blog
+    </title>
+    <!-- Favicon -->
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../favicon.ico" />
+
+    <!-- Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="/admin/assets/css/vendor.min.css" />
+    <link rel="stylesheet" href="/admin/assets/vendor/icon-set/style.css" />
+
+    <!-- CSS Front Template -->
+    <link rel="stylesheet" href="/admin/assets/css/theme.min.css?v=1.0" />
+  </head>
+  <body class="has-navbar-vertical-aside navbar-vertical-aside-show-xl">
+   <script src="/admin/assets/vendor/hs-navbar-vertical-aside/hs-navbar-vertical-aside-mini-cache.js"></script>
+    <th:block layout:replace="admin/layout/Navbar :: navbar" />
+    <main id="content" role="main" class="main">
+      <th:block layout:fragment="content">
+        <p>This is filled by the content template.</p>
+      </th:block>
+    </main>
+    <!-- Footer -->
+    <th:block layout:replace="admin/layout/Footer :: footer" />
+    <th:block layout:fragment="optional" />
+   
+  </body>
+</html>
